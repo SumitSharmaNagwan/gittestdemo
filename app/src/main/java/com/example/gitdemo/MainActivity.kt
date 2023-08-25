@@ -23,6 +23,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colors.background
                 ) {
                     Greeting("Android")
+                    // change first commit in test
                 }
             }
         }
