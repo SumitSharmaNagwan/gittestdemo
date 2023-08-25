@@ -24,6 +24,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     Greeting("Android")
                     // change first commit in test working 1
+                    // commit for dev
                 }
             }
         }
