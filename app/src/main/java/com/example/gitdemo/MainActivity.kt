@@ -23,6 +23,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colors.background
                 ) {
                     Greeting("Android")
+                    // change first commit in test working 1
                 }
             }
         }
@@ -32,6 +33,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String) {
     Text(text = "Hello $name!")
+        // change second commit in test
 }
 
 @Preview(showBackground = true)
@@ -39,5 +41,6 @@ fun Greeting(name: String) {
 fun DefaultPreview() {
     GitDemoTheme {
         Greeting("Android")
+        // change three commit
     }
 }
